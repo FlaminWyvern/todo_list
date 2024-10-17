@@ -7,7 +7,7 @@ function App() {
       <h1 className="font-bold text-3xl text-center">Your Todos</h1>
       <div className="max-w-lg mx-auto">
         <div className="space-y-2">
-          {dummyData.map(todo => (
+          {dummyData.map((todo) => (
             <TodoItem />
           ))}
         </div>
